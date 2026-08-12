@@ -83,7 +83,7 @@ function JoinInstructions() {
 
 			{/* Step 1 */}
 			<p style={{ transform: "rotate(-1deg)" }}>
-				1. Fill out the{" "}
+				1. Fill out our{" "}
 				<TextLink
 				text="verification form"
 				href={MEMBERSHIP_FORM_LINK}
