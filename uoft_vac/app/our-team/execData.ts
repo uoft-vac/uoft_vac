@@ -14,7 +14,7 @@ export const execData: Record<string, ExecDataTypes> = {
     Sy: {
         position: "President",
         colour: "#FFDC30",
-        study: "3rd year, Health & Disease",
+        study: "4th year, Health & Disease",
         medium: "coloured pencils",
         fact: "I am a scooter master",
     },
@@ -22,133 +22,181 @@ export const execData: Record<string, ExecDataTypes> = {
     Allison: {
         position: "Co-Vice President",
         colour: "#F96BBA",
-        study: "4th year, Pathobiology",
+        study: "5th year, Pathobiology",
         medium: "digital",
-        fact: "I like cats.",
+        fact: "I like looking at sunsets.",
     },
 
-    Jackie: {
+    Sunny: {
         position: "Co-Vice President",
-        colour: "#51F5CC",
-        study: "6th year, Computer Science",
+        colour: "#FF6A00",
+        study: "3rd year, Mathematics & Computer Science",
+        medium: "clae & pixel art",
+        fact: "I live at 414 Lindell Drive, Folk Valley.",
+    },
+
+    Max: {
+        position: "Secretary",
+        colour: "#2F472E",
+        study: "3rd year, Health & Disease",
         medium: "digital",
-        fact: "I am addicted to Pokémon Go right now",
+        fact: "I perform music!",
+    },
+
+    Osose: {
+        position: "Treasurer",
+        colour: "#BFFFDB",
+        study: "4th year, Physical Chemistry Specialist ",
+        medium: "digital",
+        fact: "I love Sheena Ringo",
     },
 
     // Events:
     Thomas: {
         position: "Events Director",
         colour: "#B0195A",
-        study: "2nd year, Cognitive Science/Psychology/Visual Studies",
-        medium: "Art",
+        study: "3rd year, Cognitive Science & Psychology",
+        medium: "art",
         fact: "I am fun",
-    },
-
-    Joyce: {
-        position: "Events Director",
-        colour: "#00ebff",
-        study: "5th year, Economics/Statistics/East Asian Studies",
-        medium: "digital",
-        fact: "I finished a novel totaling 160k words!",
     },
 
     Valentine: {
         name: "Val",
         position: "Events Director",
         colour: "#AB0803",
-        study: "3rd year, Political Science/Diaspora/Transnational Studies",
-        medium: "digital, watercolours, oil paints",
+        study: "4th year, Political Science/Diaspora/Transnational Studies",
+        medium: "digital, watercolours & oil paints",
         fact: "I've studied over 4 languages",
     },
 
+    Vivian: {
+        position: "Events Director",
+        colour: "#7D8396",
+        study: "2nd year, Biochemistry & Neuroscience",
+        medium: "muji pen",
+        fact: "I think taoism is cool",
+    },
+
+    Elisha: {
+        position: "Events Director",
+        colour: "#2C6B3C",
+        study: "2nd year, Art History & Religion",
+        medium: "oil paint",
+        fact: "I love to sing",
+    },
+
+    Izzy: {
+        position: "Events Director",
+        colour: "#FFA8DD",
+        study: "2nd year, Human Biology & Chemistry",
+        medium: "acrylic markers & oil paint",
+        fact: "I brush my teeth for exactly two minutes everyday",
+    },
+
     // Graphics:
-    BiewBiew: {
-        name: "Biew Biew",
-        position: "Graphics Director",
-        colour: "#A6A3FC",
-        study: "4th year, History",
-        medium: "watercolour, digital",
-        fact: "I can recite the Overwatch short ”Dragons” from memory.",
-    },
-
-    Angelia: {
-        position: "Graphics Assistant",
-        colour: "#80DDE0",
-        study: "5th year, Political Science",
-        medium: "digital",
-        fact: "I think that oat milk is the best tasting milk >:D",
-    },
-
     Christina: {
-        position: "Graphics Assistant",
+        position: "Graphics Director",
         colour: "#D6D5F2",
-        study: "3rd year, Biology",
-        medium: "digital, pencil",
+        study: "4th year, Biology",
+        medium: "digital & pencil",
         fact: "I can't stop buying that one black cover Dollarama sketchbook",
     },
 
-    Rachel: {
+    Lauren: {
         position: "Graphics Assistant",
-        colour: "#BBEEFF",
-        study: "2nd year, Computer Science",
+        colour: "#FFD1DF",
+        study: "2nd year, History, Cinema & German Studies",
         medium: "digital",
-        fact: "I did kickboxing for 2 years and will be picking it up again soon.",
+        fact: "I am currently working on multiple comic series",
+    },
+
+    Ruby: {
+        position: "Graphics Assistant",
+        colour: "#E4D1F7",
+        study: "2nd year, Architectural Studies",
+        medium: "pencil",
+        fact: "I like hamsters :D",
+    },
+
+    Arianne: {
+        position: "Graphics Assistant",
+        colour: "#FFD01A",
+        study: "2nd year, Human Biology & Immunology",
+        medium: "oil paint & digital",
+        fact: "Love me some comics",
+    },
+
+    Sophie: {
+        position: "Graphics Assistant",
+        colour: "#B20E27",
+        study: "2nd year, Mechanical Engineering",
+        medium: "digital & ink",
+        fact: "I eat my burgers upside down",
     },
 
     // Marketing:
-    Jae: {
+    Alisha: {
         position: "Marketing Director",
-        colour: "#2E5699",
-        study: "3rd year, Human Biology/Art History",
-        medium: "acrylic, digital",
-        fact: "I have double jointed fingers",
+        colour: "#FFDBF7",
+        study: "3rd year, Neuroscience",
+        medium: "acrylic paint",
+        fact: "I have been stung by a scorpion.",
     },
 
     Nabneel: {
         position: "Marketing Assistant",
         colour: "#2B752B",
-        study: "2nd year, Neuroscience/Psychology/Creativity and Society",
-        medium: "traditional sketching, inking, painting",
+        study: "3nd year, Neuroscience, Psychology & Creativity and Society",
+        medium: "traditional sketching, inking, and painting",
         fact: "I am a little bit addicted to iced tea.",
     },
 
     Emilio: {
         position: "Marketing Assistant",
-        colour: "#C20000",
-        study: "2nd year, History/East Asian Studies",
-        medium: "digital, miniature painting",
-        fact: "I can do multiple character impressions",
+        colour: "#800000",
+        study: "3rd year, History & East Asian Studies",
+        medium: "miniature painting",
+        fact: "I can speak 3 languages",
     },
 
-    Kelvin: {
+    Emily: {
         position: "Marketing Assistant",
-        colour: "#F1BAFF",
-        study: "3rd year, Psychology",
-        medium: "3D Blender",
-        fact: "I fumble",
+        colour: "#84C1E3",
+        study: "2nd year, Computer Science",
+        medium: "digital",
+        fact: "I meow a lot",
     },
+
+    Keziah: {
+        position: "Marketing Assistant",
+        colour: "#84A5C4",
+        study: "3rd year, Economics & Urban Studies",
+        medium: "traditional",
+        fact: "I like to go on walks lol",
+    },
+
 
     // Webmaster
-    Pirooz: {
-        colour: "#6510e6",
-        study: "4th year, Computer Science",
-        medium: "painting",
-        fact: "I have 4 cats",
+    Utami: {
+        colour: "#FFE20A",
+        study: "4th year, Computer Science & Mathematics",
+        medium: "digital 3d & 2d",
+        fact: "i am lv 420 blaze it in hypixel bedwars w/ 23.42 4v4v4v4 fkdr uwu",
     },
     
-    Sunny: {
-        colour: "#FF8400",
-        study: "2nd year, Mathematics",
-        medium: "clay, videography",
-        fact: "Wait… Did somebody just say mango?",
+    Esosa: {
+        colour: "#FFE3DE",
+        study: "3rd year, Neuroscience & Immunology",
+        medium: "digital",
+        fact: "I am obsessed with mangoes",
     },
 
     // Office:
     Lydia: {
-        colour: "#CFABC3",
-        study: "3rd year, Mathematics/Philosophy",
-        medium: "digital",
-        fact: "I used to have ducks as pets.",
+        colour: "#EDD1E2",
+        study: "4th year, Mathematics & Philosophy",
+        medium: "digital (my ipad)",
+        fact: "I. Drink. Too. Much. Coca-Cola.",
     },
 
     Alex: {
