@@ -13,15 +13,15 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
 } >= {
 
     "Admin": {
-        members: ["Allison", "Sy", "Jackie"],
-        members_mobile: ["Sy", "Allison", "Jackie"],
+        members: ["Allison", "Sy", "Sunny", "Max", "Osose"],
+        members_mobile: ["Allison", "Sy", "Sunny", "Max", "Osose"],
         titleSrc: "admin",
         containerClassname: "mt-5",
         titleHeight: `min(6rem,15cqw)`,
     },
 
     "Events": {
-        members: ["Thomas", "Joyce", "Valentine"],
+        members: ["Thomas", "Valentine", "Vivian", "Elisha", "Izzy"],
         titleSrc: "events",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,15cqw)`,
@@ -29,14 +29,14 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
     },
 
     "Graphics": {
-        members: ["BiewBiew", "Angelia", "Christina"],
+        members: ["Christina", "Lauren", "Ruby", "Arianne", "Sophie"],
         titleSrc: "graphics",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,17cqw)`,
     },
 
     "Marketing": {
-        members: ["Jae", "Nabneel", "Emilio", "Kelvin"],
+        members: ["Alisha", "Nabneel", "Emilio", "Emily", "Keziah"],
         titleSrc: "marketing",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,15cqw)`,
@@ -44,7 +44,7 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
     },
 
     "Webmaster": {
-        members: ["Pirooz", "Sunny"],
+        members: ["Utami", "Esosa"],
         titleSrc: "webmaster",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(6rem,12.5cqw)`,

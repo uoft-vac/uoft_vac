@@ -201,8 +201,8 @@ export const execData: Record<string, ExecDataTypes> = {
 
     Alex: {
         colour: "#A3D5FF",
-        study: "2nd year, Visual Studies/Sociology",
-        medium: "oil paint, digital, pencil, crafting with random stuff I pick up on the floor or in the garbage bin",
+        study: "3rd year, Visual Studies & Sociology",
+        medium: "oil paint, digital, pencil & crafting with random stuff I pick up on the floor or in the garbage bin",
         fact: "I like wholesome yaoi",
     },
 };
