@@ -36,8 +36,7 @@ export default function ExecEntryGrid({
             {/* Artwork */}
             <div className="mt-5">
                 <ExpandableImageCarousel
-                    images={["jpg", "png", "jpeg"].map(
-                        ext => `/exec-artworks/${entryKey}.${ext}`)}
+                    images={[`/exec-artworks/${entryKey}`]}
                     alt={`${entryKey}'s Artwork`}
                     normalSize="w-75"
                 />
