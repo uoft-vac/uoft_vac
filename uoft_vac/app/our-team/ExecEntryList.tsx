@@ -19,6 +19,7 @@ export default function ExecEntryList({
         study,
         medium,
         fact,
+        artwork,
     } = data;
 
     return (
@@ -26,7 +27,7 @@ export default function ExecEntryList({
 
             {/* Artwork */}
             <ExpandableImageCarousel
-                images={[`/exec-artworks/${entryKey}.jpg`]}
+                images={[`/exec-artworks/${artwork}$`]}
                 alt={`${entryKey}'s Artwork`}
                 normalSize="w-75"
             />
