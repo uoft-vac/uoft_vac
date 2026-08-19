@@ -17,6 +17,7 @@ export default function ExecEntryGrid({
         study,
         medium,
         fact,
+        artwork,
     } = data;
 
     return (
@@ -36,7 +37,7 @@ export default function ExecEntryGrid({
             {/* Artwork */}
             <div className="mt-5">
                 <ExpandableImageCarousel
-                    images={[`/exec-artworks/${entryKey}`]}
+                    images={[`/exec-artworks/${artwork}`]}
                     alt={`${entryKey}'s Artwork`}
                     normalSize="w-75"
                 />

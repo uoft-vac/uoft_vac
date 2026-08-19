@@ -27,7 +27,7 @@ export default function ExecEntryList({
 
             {/* Artwork */}
             <ExpandableImageCarousel
-                images={[`/exec-artworks/${artwork}$`]}
+                images={[`/exec-artworks/${entryKey}`]}
                 alt={`${entryKey}'s Artwork`}
                 normalSize="w-75"
             />
