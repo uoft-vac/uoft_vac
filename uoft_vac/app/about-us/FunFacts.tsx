@@ -29,7 +29,7 @@ export default function FunFacts() {
 
             {/* Section title */}
             <SectionTitle
-                src="/title-fun-facts.png"
+                src="/title-fun-facts.webp"
                 height="min(7rem,17.5cqw)"
             >
                 Fun Facts!
@@ -53,7 +53,7 @@ export default function FunFacts() {
                     style={{ containerType: "inline-size" }}
                 >
                     <Image
-                        src="/fact-cloud1.png"
+                        src="/fact-cloud1.webp"
                         alt="Fact 1"
                         className={FACT_CLOUD_IMG_CLASSNAME}
                         fill
@@ -75,7 +75,7 @@ export default function FunFacts() {
                     style={{ containerType: "inline-size" }}
                 >
                     <Image
-                        src="/fact-cloud2.png"
+                        src="/fact-cloud2.webp"
                         alt="Fact 2"
                         className={FACT_CLOUD_IMG_CLASSNAME}
                         fill
@@ -97,7 +97,7 @@ export default function FunFacts() {
                     style={{ containerType: "inline-size" }}
                 >
                     <Image
-                        src="/fact-cloud3.png"
+                        src="/fact-cloud3.webp"
                         alt="Fact 3"
                         className={FACT_CLOUD_IMG_CLASSNAME}
                         fill
@@ -119,7 +119,7 @@ export default function FunFacts() {
                     style={{ containerType: "inline-size" }}
                 >
                     <Image
-                        src="/fact-cloud4.png"
+                        src="/fact-cloud4.webp"
                         alt="Fact 4"
                         className={FACT_CLOUD_IMG_CLASSNAME}
                         fill
@@ -141,7 +141,7 @@ export default function FunFacts() {
                 {/* Frodo */}
                 <div className="w-[min(8rem,15cqw)] aspect-square relative">
                     <Image
-                        src="/frodo-facts.png"
+                        src="/frodo-facts.webp"
                         alt="Frodo"
                         className="object-contain"
                         fill

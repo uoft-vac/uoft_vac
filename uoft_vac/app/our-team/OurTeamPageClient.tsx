@@ -29,14 +29,14 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
     },
 
     "Graphics": {
-        members: ["Christina", "Lauren", "Ruby", "Arianne", "Sophie"],
+        members: ["Lauren", "Christina", "Ruby", "Arianne", "Sophie"],
         titleSrc: "graphics",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,17cqw)`,
     },
 
     "Marketing": {
-        members: ["Alisha", "Nabneel", "Emilio", "Emily", "Keziah"],
+        members: ["Nabneel", "Alisha", "Emilio", "Emily", "Keziah"],
         titleSrc: "marketing",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,15cqw)`,
@@ -97,7 +97,7 @@ export default function OurTeamPageClient() {
                         
                             {/* Category title */}
                             <SectionTitle
-                                src={titleSrc ? `/title-execs-${titleSrc}.png` : undefined}
+                                src={titleSrc ? `/title-execs-${titleSrc}.webp` : undefined}
                                 height={titleHeight}
                             >
                                 {category}

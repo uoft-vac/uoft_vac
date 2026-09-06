@@ -38,7 +38,7 @@ export default function FAQPageClient() {
 
             {/* Section title */}
             <SectionTitle
-                src="/title-faq.png"
+                src="/title-faq.webp"
                 height="min(5rem,6cqw)"
             >
                 Frequently Asked Questions
@@ -47,7 +47,7 @@ export default function FAQPageClient() {
             {/* Container top graphic (Frodo face) */}
             <div className={`mt-10 ${!isMobile && "mx-[5cqw]"}`}>
                 <Image
-                    src="/faq-container-top.png"
+                    src="/faq-container-top.webp"
                     alt="Frodo Head"
                     className=" object-contain"
                     width={2000} height={0}

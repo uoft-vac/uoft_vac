@@ -19,7 +19,7 @@ export default function WhatDoWeDo() {
             
             {/* Section title */}
             <SectionTitle
-                src="/title-what-do-we-do.png"
+                src="/title-what-do-we-do.webp"
                 height="min(5rem,8cqw)"
             >
                 What do we do?

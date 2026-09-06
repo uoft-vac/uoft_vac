@@ -30,7 +30,7 @@ export default function ContactUsPageClient() {
 
             {/* Page title */}
             <SectionTitle
-                src="/title-contact-us.png"
+                src="/title-contact-us.webp"
                 height={SP_TITLE_HEIGHT}
             >
                 Contact Us!
@@ -44,7 +44,7 @@ export default function ContactUsPageClient() {
 
                     {/* Left: graphic */}
                     <Image
-                        src="/contact-us-graphic.png"
+                        src="/contact-us-graphic.webp"
                         alt="Contact Us!"
                         className="mt-5 w-[45cqw]"
                         width={1000} height={0}

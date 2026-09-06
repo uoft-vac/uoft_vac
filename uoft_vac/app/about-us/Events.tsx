@@ -74,9 +74,9 @@ export default function Events() {
                 {/* Row 1 */}
                 <div className="grid grid-cols-3">
                     {[
-                        ["Themed Events", "/events-themed-events.png"],
-                        ["Craft Days", "/events-craft-days.png"],
-                        ["Gallery Visits", "/events-gallery-visits.png"]
+                        ["Themed Events", "/events-themed-events.webp"],
+                        ["Craft Days", "/events-craft-days.webp"],
+                        ["Gallery Visits", "/events-gallery-visits.webp"]
                     ].map(([label, src], idx) => (
                         <div
                             key={idx}
@@ -97,8 +97,8 @@ export default function Events() {
                 {/* Row 2 */}
                 <div className="mt-[2cqw] grid grid-cols-3">
                     {[
-                        ["Workshops", "/events-workshops.png"],
-                        ["Virtual Events", "/events-virtual-events.png"]]
+                        ["Workshops", "/events-workshops.webp"],
+                        ["Virtual Events", "/events-virtual-events.webp"]]
                         .map(([label, src], idx) => (
                         <div
                             key={idx}

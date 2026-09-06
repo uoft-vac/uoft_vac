@@ -30,7 +30,7 @@ export default function UpcomingEvents() {
 
             {/* Section title */}
             <SectionTitle
-                src="/title-upcoming-events.png"
+                src="/title-upcoming-events.webp"
                 height="min(5rem,7cqw)"
             >
                 Upcoming Events!
@@ -43,7 +43,7 @@ export default function UpcomingEvents() {
                 {!isMobile &&
                     <div className="flex justify-center">
                         <Image
-                            src="/frodo-smiley.png"
+                            src="/frodo-smiley.webp"
                             alt="Frodo smiley"
                             className="object-contain"
                             width={150} height={0}
@@ -60,7 +60,7 @@ export default function UpcomingEvents() {
 
                     {/* Graphic */}
                     <ExpandableImageCarousel
-                        images={["/event-schedule.png"]}
+                        images={["/event-schedule.webp"]}
                         alt="Event Schedule"
                         normalSize="w-[min(40rem,100cqw)]"
                     />
@@ -86,7 +86,7 @@ export default function UpcomingEvents() {
                 {!isMobile &&
                     <div className="flex justify-center">
                         <Image
-                            src={!hoverFrodoo ? "/frodoo.png" : "/cursed-dave.png"}
+                            src={!hoverFrodoo ? "/frodoo.webp" : "/cursed-dave.webp"}
                             alt="Frodave"
                             className="object-contain cursor-pointer"
                             width={150} height={0}

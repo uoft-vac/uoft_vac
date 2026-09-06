@@ -30,7 +30,7 @@ export default function JoinUsPageClient() {
 			
 			{/* Page title */}
 			<SectionTitle
-				src="/title-join-us.png"
+				src="/title-join-us.webp"
 				height={SP_TITLE_HEIGHT}
 			>
 				Join Us Today For Free!
@@ -47,7 +47,7 @@ export default function JoinUsPageClient() {
 
 					{/* Right: graphic */}
 					<Image
-						src="/join-us-graphic.png"
+						src="/join-us-graphic.webp"
 						alt="Join Us!"
 						className="mt-5 w-[47cqw]"
 						width={1000} height={0}

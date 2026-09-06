@@ -18,7 +18,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "4th year, Health & Disease",
         medium: "coloured pencils",
         fact: "I am a scooter master",
-        artwork: "Sy.jpg",
+        artwork: "Sy.webp",
     },
 
     Allison: {
@@ -27,7 +27,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "5th year, Pathobiology",
         medium: "digital",
         fact: "I like looking at sunsets.",
-        artwork: "Allison.jpg",
+        artwork: "Allison.webp",
     },
 
     Sunny: {
@@ -36,7 +36,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3rd year, Mathematics & Computer Science",
         medium: "clae & pixel art",
         fact: "I live at 414 Lindell Drive, Folk Valley.",
-        artwork: "Sunny.png",
+        artwork: "Sunny.webp",
     },
 
     Max: {
@@ -45,7 +45,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3rd year, Health & Disease",
         medium: "digital",
         fact: "I perform music!",
-        artwork: "Max.png",
+        artwork: "Max.webp",
     },
 
     Osose: {
@@ -54,7 +54,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "4th year, Physical Chemistry Specialist ",
         medium: "digital",
         fact: "I love Sheena Ringo",
-        artwork: "Osose.png",
+        artwork: "Osose.webp",
     },
 
     // Events:
@@ -64,7 +64,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3rd year, Cognitive Science & Psychology",
         medium: "art",
         fact: "I am fun",
-        artwork: "Thomas.jpg",
+        artwork: "Thomas.webp",
     },
 
     Valentine: {
@@ -74,7 +74,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "4th year, Political Science/Diaspora/Transnational Studies",
         medium: "digital, watercolours & oil paints",
         fact: "I've studied over 4 languages",
-        artwork: "Valentine.jpg",
+        artwork: "Valentine.webp",
     },
 
     Vivian: {
@@ -92,7 +92,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "2nd year, Art History & Religion",
         medium: "oil paint",
         fact: "I love to sing",
-        artwork: "Elisha.jpeg",
+        artwork: "Elisha.webp",
     },
 
     Izzy: {
@@ -101,7 +101,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "2nd year, Human Biology & Chemistry",
         medium: "acrylic markers & oil paint",
         fact: "I brush my teeth for exactly two minutes everyday",
-        artwork: "Izzy.jpeg",
+        artwork: "Izzy.webp",
     },
 
     // Graphics:
@@ -111,7 +111,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "4th year, Biology",
         medium: "digital & pencil",
         fact: "I can't stop buying that one black cover Dollarama sketchbook",
-        artwork: "Christina.jpg",
+        artwork: "Christina.webp",
     },
 
     Lauren: {
@@ -120,7 +120,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "2nd year, History, Cinema & German Studies",
         medium: "digital",
         fact: "I am currently working on multiple comic series",
-        artwork: "Lauren.jpeg",
+        artwork: "Lauren.webp",
     },
 
     Ruby: {
@@ -129,7 +129,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "2nd year, Architectural Studies",
         medium: "pencil",
         fact: "I like hamsters :D",
-        artwork: "Ruby.jpg",
+        artwork: "Ruby.webp",
     },
 
     Arianne: {
@@ -138,7 +138,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "2nd year, Human Biology & Immunology",
         medium: "oil paint & digital",
         fact: "Love me some comics",
-        artwork: "Arianne.jpg",
+        artwork: "Arianne.webp",
     },
 
     Sophie: {
@@ -147,7 +147,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "2nd year, Mechanical Engineering",
         medium: "digital & ink",
         fact: "I eat my burgers upside down",
-        artwork: "Sophie.jpg",
+        artwork: "Sophie.webp",
     },
 
     // Marketing:
@@ -157,7 +157,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3rd year, Neuroscience",
         medium: "acrylic paint",
         fact: "I have been stung by a scorpion.",
-        artwork: "Alisha.jpg",
+        artwork: "Alisha.webp",
     },
 
     Nabneel: {
@@ -166,7 +166,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3nd year, Neuroscience, Psychology & Creativity and Society",
         medium: "traditional sketching, inking, and painting",
         fact: "I am a little bit addicted to iced tea.",
-        artwork: "Nabneel.jpg",
+        artwork: "Nabneel.webp",
     },
 
     Emilio: {
@@ -175,7 +175,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3rd year, History & East Asian Studies",
         medium: "miniature painting",
         fact: "I can speak 3 languages",
-        artwork: "Emilio.jpg",
+        artwork: "Emilio.webp",
     },
 
     Emily: {
@@ -184,7 +184,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "2nd year, Computer Science",
         medium: "digital",
         fact: "I meow a lot",
-        artwork: "Emily.jpg",
+        artwork: "Emily.webp",
     },
 
     Keziah: {
@@ -193,7 +193,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3rd year, Economics & Urban Studies",
         medium: "traditional",
         fact: "I like to go on walks lol",
-        artwork: "Keziah.jpg",
+        artwork: "Keziah.webp",
     },
 
 
@@ -203,7 +203,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "4th year, Computer Science & Mathematics",
         medium: "digital 3d & 2d",
         fact: "i am lv 420 blaze it in hypixel bedwars w/ 23.42 4v4v4v4 fkdr uwu",
-        artwork: "Utami.jpg",
+        artwork: "Utami.webp",
     },
     
     Esosa: {
@@ -211,7 +211,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3rd year, Neuroscience & Immunology",
         medium: "digital",
         fact: "I am obsessed with mangoes",
-        artwork: "Esosa.jpg",
+        artwork: "Esosa.webp",
     },
 
     // Office:
@@ -220,7 +220,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "4th year, Mathematics & Philosophy",
         medium: "digital (my ipad)",
         fact: "I. Drink. Too. Much. Coca-Cola.",
-        artwork: "Lydia.jpeg",
+        artwork: "Lydia.webp",
     },
 
     Alex: {
@@ -228,6 +228,6 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "3rd year, Visual Studies & Sociology",
         medium: "oil paint, digital, pencil & crafting with random stuff I pick up on the floor or in the garbage bin",
         fact: "I like wholesome yaoi",
-        artwork: "Alex.jpg",
+        artwork: "Alex.webp",
     },
 };
