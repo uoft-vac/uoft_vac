@@ -4,6 +4,7 @@ import { useIsMobile } from "../layout/useIsMobile";
 import SectionTitle from "../common/SectionTitle";
 import Events from "./Events";
 import OfficeHours from "./OfficeHours";
+import UnOfficalEvents from "./UnOfficalEvents";
 
 export const SUBSECTIONS_CONTAINER_CLASSNAME = "rounded-b-xl shadow-xl relative"
 export const SUBSECTIONS_TITLE_HEIGHT = "max(7.5cqw,3rem)";
@@ -32,6 +33,7 @@ export default function WhatDoWeDo() {
             >
                 <Events/>
                 <OfficeHours/>
+                <UnOfficalEvents/>
             </div>
             
         </section>

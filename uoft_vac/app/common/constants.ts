@@ -25,6 +25,8 @@ export const SUBSECTION_BASE_YELLOW = "rgb(255,206,0)";
 export const SUBSECTION_EDGES_YELLOW = "rgb(255,187,0)";
 export const SUBSECTION_BASE_BLUE = "rgb(0,214,255)";
 export const SUBSECTION_EDGES_BLUE = "rgb(0,192,255)";
+export const SUBSECTION_BASE_PURPLE = "rgb(227, 0, 255)"
+export const SUBSECTION_EDGES_PURPLE = "rgb(181, 2, 253)"
 export const PURP_BUTTONS_BASE_PURPLE = "rgb(80,43,113)";
 export const PURP_BUTTONS_EDGES_PURPLE = "rgb(72,25,104)";
 // Join Us
