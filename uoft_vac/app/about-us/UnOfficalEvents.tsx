@@ -21,10 +21,10 @@ import { divGradientStyleBackground } from "../common/divGradientStyleBackground
 export default function UnOfficalEvents() {
     return (
         <section
-            className={"rounded-b-l shadow-l relative"}
+            className={SUBSECTIONS_CONTAINER_CLASSNAME}
             style={{
                 background: divGradientStyleBackground(
-                    SUBSECTION_BASE_PURPLE,,
+                    SUBSECTION_BASE_PURPLE,
                     SUBSECTION_EDGES_PURPLE,
                 ),
                 containerType: "inline-size",
