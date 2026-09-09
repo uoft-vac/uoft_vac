@@ -83,7 +83,7 @@ export const execData: Record<string, ExecDataTypes> = {
         study: "2nd year, Biochemistry & Neuroscience",
         medium: "muji pen",
         fact: "I think taoism is cool",
-        artwork: "Vivian.jpg",
+        artwork: "Vivian.webp",
     },
 
     Elisha: {
