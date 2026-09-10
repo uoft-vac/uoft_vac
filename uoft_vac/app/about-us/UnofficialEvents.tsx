@@ -12,16 +12,18 @@ import {
     SUBSECTIONS_CONTAINER_CLASSNAME,
     SUBSECTIONS_TITLE_HEIGHT,
     SUBSECTIONS_TEXT_CLASSNAME,
+    EVENT_GRAPHICS_ROW_CLASSNAME,
+    EVENT_GRAPHICS_DIV_CLASSNAME,
     SubsectionEars,
 } from "./WhatDoWeDo";
 import SectionTitle from "../common/SectionTitle";
 import { divGradientStyleBackground } from "../common/divGradientStyleBackground";
 
 
-export default function UnOfficalEvents() {
+export default function UnofficalEvents() {
     return (
         <section
-            className={SUBSECTIONS_CONTAINER_CLASSNAME}
+            className={`pb-3 ${SUBSECTIONS_CONTAINER_CLASSNAME}`}
             style={{
                 background: divGradientStyleBackground(
                     SUBSECTION_BASE_PURPLE,
@@ -35,7 +37,7 @@ export default function UnOfficalEvents() {
             <SubsectionEars colour={SUBSECTION_EDGES_PURPLE}/>
 
             {/* Subsection title */}
-            <SectionTitle height={SUBSECTIONS_TITLE_HEIGHT}>UnOfficalEvents</SectionTitle>
+            <SectionTitle height={SUBSECTIONS_TITLE_HEIGHT}>Unoffical Events</SectionTitle>
 
             {/* Overview */}
             <p className={SUBSECTIONS_TEXT_CLASSNAME}>
@@ -47,9 +49,9 @@ export default function UnOfficalEvents() {
                  {/* Row 1 */}
                  <div className="grid grid-cols-3">
                     {[
-                        ["Inktober", "/unevents-inktober.webp"],
-                        ["Beach Day", "/unevents-beach.day.webp"],
-                        ["UWaterloo Collab", "/unevents-uw-collab.webp"]
+                        ["Beach Day", "/unevents-beach-day.webp"],
+                        ["UWaterloo Collab", "/unevents-uw-collab.webp"],
+                        ["Inktober", "/unevents-inktober.webp"]
                     ].map(([label, src], idx) => (
                         <div
                             key={idx}

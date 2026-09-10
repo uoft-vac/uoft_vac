@@ -40,16 +40,18 @@ export default function JoinUsPageClient() {
 			{!isMobile ? (
 
 				// Two halves horizontal
-				<div className="grid grid-cols-[1fr_auto]">
+				<div className="grid grid-cols-5">
 
 					{/* Left: join instructions */}
-					<JoinInstructions/>
+					<div className="col-span-3">
+						<JoinInstructions/>
+					</div>
 
 					{/* Right: graphic */}
 					<Image
 						src="/join-us-graphic.webp"
 						alt="Join Us!"
-						className="mt-5 w-[47cqw]"
+						className="mt-5 w-full max-w-[30rem] col-span-2"
 						width={1000} height={0}
 					/>
 				</div>
@@ -79,7 +81,7 @@ export default function JoinUsPageClient() {
 
 function JoinInstructions() {
 	return (
-		<ol className={`mt-[5cqw] gap-[8cqw] ${SP_TEXT_CONTAINER_CLASSNAME} font-semibold`}>
+		<ol className={`mt-[min(5rem,5cqw)] gap-[min(5rem,6.5cqw)] ${SP_TEXT_CONTAINER_CLASSNAME} font-semibold`}>
 
 			{/* Step 1 */}
 			<p style={{ transform: "rotate(-1deg)" }}>

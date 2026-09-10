@@ -15,6 +15,8 @@ import {
     SUBSECTIONS_CONTAINER_CLASSNAME,
     SUBSECTIONS_TITLE_HEIGHT,
     SUBSECTIONS_TEXT_CLASSNAME,
+    EVENT_GRAPHICS_ROW_CLASSNAME,
+    EVENT_GRAPHICS_DIV_CLASSNAME,
     SubsectionEars,
 } from "./WhatDoWeDo";
 import { useIsMobile } from "../layout/useIsMobile";
@@ -22,8 +24,6 @@ import SectionTitle from "../common/SectionTitle";
 import DynamicButton from "../common/DynamicButton";
 import { divGradientStyleBackground } from "../common/divGradientStyleBackground";
 
-const EVENT_GRAPHICS_ROW_CLASSNAME = "gap-[1cqw] text-[max(3cqw,.8rem)] flex flex-col items-center font-medium text-center";
-const EVENT_GRAPHICS_DIV_CLASSNAME = "w-[20cqw] aspect-square border-3 rounded-lg shadow-lg relative overflow-hidden";
 const PURP_BUTTON_GRADIENT_STYLE_COMPONENT = divGradientStyleBackground(
     PURP_BUTTONS_BASE_PURPLE,
     PURP_BUTTONS_EDGES_PURPLE,
