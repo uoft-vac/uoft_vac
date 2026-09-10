@@ -14,7 +14,7 @@ export default function OurMission() {
 
             {/* Section title */}
             <SectionTitle
-                src="/title-our-mission.png"
+                src="/title-our-mission.webp"
                 height="min(5rem,7cqw)"
             >
                 Our Mission!
@@ -25,7 +25,7 @@ export default function OurMission() {
 
                 {/* Paint */}
                 <Image
-                    src="/mission-paint.png"
+                    src="/mission-paint.webp"
                     alt="Our mission"
                     className="z-[-10] object-contain"
                     fill
@@ -45,7 +45,7 @@ export default function OurMission() {
 
                 {/* Frodo left */}
                 <Image
-                    src="/frodo-abstract1.png"
+                    src="/frodo-abstract1.webp"
                     alt="Frodo Abstract 1"
                     className="absolute left-[-2%] top-1/2"
                     width={140} height={0}
@@ -53,7 +53,7 @@ export default function OurMission() {
 
                 {/* Frodo right */}
                 <Image
-                    src="/frodo-abstract2.png"
+                    src="/frodo-abstract2.webp"
                     alt="Frodo Abstract 2"
                     className="translate-x-10 absolute right-0 bottom-1/2"
                     width={160} height={0}

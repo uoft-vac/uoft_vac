@@ -27,7 +27,7 @@ export default function SideDecor({ offset }: { offset: number }) {
     // Load image to compute scroll repetition height.
     useEffect(() => {
         const img = new window.Image();
-        img.src = "/side-decor-l.png";
+        img.src = "/side-decor-l.webp";
         img.onload = () => {
             const scaledHeight =
                 img.naturalHeight * (SIDE_DECOR_WIDTH / img.naturalWidth);
@@ -78,7 +78,7 @@ export default function SideDecor({ offset }: { offset: number }) {
             {leftStripes.map((stripe) => (
                 <Image
                     key={stripe.y}
-                    src="/side-decor-l.png"
+                    src="/side-decor-l.webp"
                     alt="Side decor"
                     style={{
                         position: "absolute",
@@ -101,7 +101,7 @@ export default function SideDecor({ offset }: { offset: number }) {
             {rightStripes.map((stripe) => (
                 <Image
                     key={stripe.y}
-                    src="/side-decor-r.png"
+                    src="/side-decor-r.webp"
                     alt="Side decor"
                     style={{
                         position: "absolute",

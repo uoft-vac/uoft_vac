@@ -17,8 +17,11 @@ export default function FunFacts() {
     const isSmaller = useIsMobile(true);
 
     const FACT_CONTAINER_CLASSNAME =
-        `${!isMobile ? "w-[24cqw]" :
-            !isSmaller ? "w-[35cqw]" : "w-75"}
+        `${!isMobile
+            ? "w-full max-w-[24rem] justify-self-center"
+            : !isSmaller
+                ? "w-[35cqw]"
+                : "w-75"}
         aspect-square flex items-center relative`;
 
     return (
@@ -29,17 +32,21 @@ export default function FunFacts() {
 
             {/* Section title */}
             <SectionTitle
-                src="/title-fun-facts.png"
+                src="/title-fun-facts.webp"
                 height="min(7rem,17.5cqw)"
             >
                 Fun Facts!
             </SectionTitle>
 
             {/* Facts container */}
-            <div className={`${!isSmaller && "grid"} ${!isMobile
-                ? "mt-10 gap-[1cqw] grid-cols-4"
-                : !isSmaller ? "mt-20" : "mt-10"}
-                grid-cols-2`}
+            <div
+                className={`${!isSmaller && "grid"} ${
+                    !isMobile
+                        ? "mt-10 w-full max-w-[99rem] gap-4 grid-cols-4"
+                        : !isSmaller
+                            ? "mt-20"
+                            : "mt-10"
+                }`}
             >
 
                 {/* Fact 1 */}
@@ -53,7 +60,7 @@ export default function FunFacts() {
                     style={{ containerType: "inline-size" }}
                 >
                     <Image
-                        src="/fact-cloud1.png"
+                        src="/fact-cloud1.webp"
                         alt="Fact 1"
                         className={FACT_CLOUD_IMG_CLASSNAME}
                         fill
@@ -75,7 +82,7 @@ export default function FunFacts() {
                     style={{ containerType: "inline-size" }}
                 >
                     <Image
-                        src="/fact-cloud2.png"
+                        src="/fact-cloud2.webp"
                         alt="Fact 2"
                         className={FACT_CLOUD_IMG_CLASSNAME}
                         fill
@@ -97,7 +104,7 @@ export default function FunFacts() {
                     style={{ containerType: "inline-size" }}
                 >
                     <Image
-                        src="/fact-cloud3.png"
+                        src="/fact-cloud3.webp"
                         alt="Fact 3"
                         className={FACT_CLOUD_IMG_CLASSNAME}
                         fill
@@ -119,7 +126,7 @@ export default function FunFacts() {
                     style={{ containerType: "inline-size" }}
                 >
                     <Image
-                        src="/fact-cloud4.png"
+                        src="/fact-cloud4.webp"
                         alt="Fact 4"
                         className={FACT_CLOUD_IMG_CLASSNAME}
                         fill
@@ -133,15 +140,15 @@ export default function FunFacts() {
 
             {/* Mascot container */}
             <div className={`${!isMobile
-                ? "mt-[7cqw] ml-[25cqw]"
+                ? "mt-[7cqw] translate-x-[-20rem]"
                 : "mt-[10cqw] ml-[50cqw] max-[700px]:ml-[10cqw]"}
-                w-full flex items-center relative`}
+                w-full flex justify-center items-center relative`}
             >
 
                 {/* Frodo */}
                 <div className="w-[min(8rem,15cqw)] aspect-square relative">
                     <Image
-                        src="/frodo-facts.png"
+                        src="/frodo-facts.webp"
                         alt="Frodo"
                         className="object-contain"
                         fill

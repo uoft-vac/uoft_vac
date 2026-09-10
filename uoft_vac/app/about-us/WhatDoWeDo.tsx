@@ -4,11 +4,13 @@ import { useIsMobile } from "../layout/useIsMobile";
 import SectionTitle from "../common/SectionTitle";
 import Events from "./Events";
 import OfficeHours from "./OfficeHours";
-import UnOfficalEvents from "./UnOfficalEvents";
+import UnofficalEvents from "./UnofficialEvents";
 
-export const SUBSECTIONS_CONTAINER_CLASSNAME = "rounded-b-xl shadow-xl relative"
+export const SUBSECTIONS_CONTAINER_CLASSNAME = "w-full max-w-[40rem] rounded-b-xl shadow-xl relative";
 export const SUBSECTIONS_TITLE_HEIGHT = "max(7.5cqw,3rem)";
-export const SUBSECTIONS_TEXT_CLASSNAME = "mx-2 text-[max(3.25cqw,1.25rem)] text-center";
+export const SUBSECTIONS_TEXT_CLASSNAME = "mx-3 text-[max(3.25cqw,1.25rem)] text-center";
+export const EVENT_GRAPHICS_ROW_CLASSNAME = "gap-[1cqw] text-[max(3cqw,.8rem)] flex flex-col items-center font-medium text-center";
+export const EVENT_GRAPHICS_DIV_CLASSNAME = "w-[20cqw] aspect-square border-3 rounded-lg shadow-lg relative overflow-hidden";
 
 
 export default function WhatDoWeDo() {
@@ -17,25 +19,31 @@ export default function WhatDoWeDo() {
 
     return (
         <section className="mt-15">
-            
+
             {/* Section title */}
             <SectionTitle
-                src="/title-what-do-we-do.png"
+                src="/title-what-do-we-do.webp"
                 height="min(5rem,8cqw)"
             >
                 What do we do?
             </SectionTitle>
 
-            {/* Subsections */}
-            <div className={`mt-15 ${!isMobile
-                ? "mx-[1cqw] gap-[1cqw] grid grid-cols-2"
-                : `${!isSmaller && "mx-[5cqw]"} gap-[10cqw] flex flex-col`}`}
-            >
-                <Events/>
-                <OfficeHours/>
-                <UnOfficalEvents/>
+            {/* Events and office hours subsections */}
+            <div className="gap-20">
+                <div
+                    className={`mt-15 ${!isMobile
+                        ? "mx-[1cqw] gap-5 flex justify-center"
+                        : `${!isSmaller && "mx-[5cqw]"} gap-[10cqw] flex flex-col items-center`
+                    }`}
+                >
+                    <Events />
+                    <OfficeHours />
+                </div>
+
+                <div className="mt-17 flex justify-center">
+                    <UnofficalEvents />
+                </div>
             </div>
-            
         </section>
     );
 }
@@ -43,6 +51,7 @@ export default function WhatDoWeDo() {
 
 // Subsection ears component
 const EAR_CLASSNAME = `z-[-10] aspect-square rounded-full absolute`;
+
 export function SubsectionEars({
     colour,
     size = 15,
@@ -62,7 +71,7 @@ export function SubsectionEars({
             style={{
                 ...earStyle,
                 left: 0,
-                }}
+            }}
         />
 
         <div

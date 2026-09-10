@@ -68,7 +68,7 @@ export default function OfficeHours() {
                         ${BUBBLE_GRAPHICS_DIV_CLASSNAME}`}
                     >
                         <Image
-                            src="/office-hours-make-art.png"
+                            src="/office-hours-make-art.webp"
                             alt="Make Art"
                             fill
                         />
@@ -79,7 +79,7 @@ export default function OfficeHours() {
                         ${BUBBLE_GRAPHICS_DIV_CLASSNAME}`}
                     >
                         <Image
-                            src="/office-hours-study.png"
+                            src="/office-hours-study.webp"
                             alt="Study"
                             fill
                         />
@@ -90,7 +90,7 @@ export default function OfficeHours() {
                         ${BUBBLE_GRAPHICS_DIV_CLASSNAME}`}
                     >
                         <Image
-                            src="/office-hours-socialise.png"
+                            src="/office-hours-socialise.webp"
                             alt="Socialise"
                             fill
                         />
