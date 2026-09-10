@@ -40,18 +40,18 @@ export default function ContactUsPageClient() {
             {!isMobile ? (
 
                 // Two halves horizontal
-                <div className="grid grid-cols-11">
+                <div className="grid grid-cols-5">
 
                     {/* Left: graphic */}
                     <Image
                         src="/contact-us-graphic.webp"
                         alt="Contact Us!"
-                        className="mt-5 w-full max-w-[30rem] col-start-2 col-span-4"
+                        className="mt-5 w-full max-w-[30rem] col-span-2 justify-self-end"
                         width={1000} height={0}
                     />
 
                     {/* Right: contact info */}
-                    <div className="col-span-5">
+                    <div className="col-span-3">
                         <ContactInfo/>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export default function ContactUsPageClient() {
 
 function ContactInfo() {
     return (
-        <ol className={`mt-[min(3rem,3cqw)] gap-[min(3rem,3cqw)] ${SP_TEXT_CONTAINER_CLASSNAME}`}>
+        <ol className={`mt-[min(3rem,3cqw)] gap-[min(3rem,3cqw)] ${SP_TEXT_CONTAINER_CLASSNAME} justify-self-start`}>
 
             {/* First line */}
             <p className="text-[min(2.5rem,6cqw)] font-semibold">

@@ -40,7 +40,7 @@ export default function JoinUsPageClient() {
 			{!isMobile ? (
 
 				// Two halves horizontal
-				<div className="grid grid-cols-5">
+				<div className="gap-[3cqw] grid grid-cols-5">
 
 					{/* Left: join instructions */}
 					<div className="col-span-3">
@@ -81,7 +81,7 @@ export default function JoinUsPageClient() {
 
 function JoinInstructions() {
 	return (
-		<ol className={`mt-[min(5rem,5cqw)] gap-[min(5rem,6.5cqw)] ${SP_TEXT_CONTAINER_CLASSNAME} font-semibold`}>
+		<ol className={`mt-[min(5rem,5cqw)] gap-[min(5rem,6.5cqw)] ${SP_TEXT_CONTAINER_CLASSNAME} justify-self-end font-semibold`}>
 
 			{/* Step 1 */}
 			<p style={{ transform: "rotate(-1deg)" }}>
