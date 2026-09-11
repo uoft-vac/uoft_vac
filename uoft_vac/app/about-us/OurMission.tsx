@@ -68,7 +68,7 @@ export default function OurMission() {
 
                 {/* Create */}
                 <Image
-                    src="/values-create.png"
+                    src="/values-create.webp"
                     alt="Create"
                     className={isSmaller ? "translate-x-[-20cqw]" : undefined}
                     width={200} height={0}
@@ -76,7 +76,7 @@ export default function OurMission() {
 
                 {/* Share */}
                 <Image
-                    src="/values-share.png"
+                    src="/values-share.webp"
                     alt="Share"
                     className={isSmaller ? "translate-x-[15cqw] translate-y-[-5cqw]" : undefined}
                     width={200} height={0}
@@ -84,7 +84,7 @@ export default function OurMission() {
 
                 {/* Connect */}
                 <Image
-                    src="/values-connect.png"
+                    src="/values-connect.webp"
                     alt="Connect"
                     className={isSmaller ? "translate-x-[-10cqw]" : undefined}
                     width={200} height={0}
