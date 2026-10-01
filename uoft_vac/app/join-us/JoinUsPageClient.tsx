@@ -87,7 +87,7 @@ function JoinInstructions() {
 			<p style={{ transform: "rotate(-1deg)" }}>
 				1. Fill out our{" "}
 				<TextLink
-				text="verification form"
+				text="membership form"
 				href={MEMBERSHIP_FORM_LINK}
 				style={{ color: TEXT_LINK_PASSIVE_PURPLE }}
 				hoverStyle={{ color: TEXT_LINK_HOVER_PURPLE }}

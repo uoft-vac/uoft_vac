@@ -96,19 +96,18 @@ export const faqs: {
     },
 
     { // 8
-        question: "Can alumni students join VAC?",
+        question: "Can non-UofT students join VAC?",
         answer: <>
-            Yes! While our in-person events are usually made for current students, you are free to{" "}
-            join our Discord to hang out with everyone online. If you want to attend our in-person{" "}
-            events, please make sure you come with a friend who is a current UofT student, or{" "}
+            Yes, if you have a friend that is a UofT student and a VAC member that can vouch for you!{" "}
+            You will have the option to specify this and your friend's info when filling out our {" "}
             <TextLink
-                text="contact us"
-                href="/contact-us"
+                text="membership form"
+                href={MEMBERSHIP_FORM_LINK}
                 style={{ color: FAQ_LINK_PASSIVE_BLUE}}
                 hoverStyle={{ color: FAQ_LINK_HOVER_BLUE}}
-                stay
             />
-            .
+            . Note that your friend must have filled out this form, and each UofT student can vouch{" "}
+            for at most 1 non-UofT student. Details can be found within the form.
         </>,
     },
     
@@ -117,13 +116,13 @@ export const faqs: {
         answer: <>
             You need to fill out our{" "}
             <TextLink
-                text="membership verification form"
+                text="membership form"
                 href={MEMBERSHIP_FORM_LINK}
                 style={{ color: FAQ_LINK_PASSIVE_BLUE}}
                 hoverStyle={{ color: FAQ_LINK_HOVER_BLUE}}
             />
             {" "}before being granted access to our Discord server. Since we manually verify our members,{" "}
-            please then wait for a few days. In the meantime, you can go through our server rules.
+            please then wait for a few days. In the meantime, you can go through our server rules!
         </>,
     },
 ];
