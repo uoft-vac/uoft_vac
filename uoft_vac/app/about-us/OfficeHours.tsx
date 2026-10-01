@@ -41,7 +41,7 @@ export default function OfficeHours() {
             <p className={SUBSECTIONS_TEXT_CLASSNAME}>
                 We host office hours every <strong>Monday and Wednesday from 3–6pm</strong>.
                 <br />
-                Be sure to check our <strong>Discord announcements</strong> for additional office hours!
+                Be sure to check our <strong>Discord announcements</strong> for additional, spontaneous office hours!
             </p>
 
             <div className="mt-2.5 grid grid-cols-[auto_1fr]">

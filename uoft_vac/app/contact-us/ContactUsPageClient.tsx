@@ -112,8 +112,7 @@ function ContactInfo() {
 
             {/* Bullet 3 */}
             <p style={{ transform: "rotate(-1deg)" }}>
-                • Ping the <strong>@President</strong> or{" "}
-                <strong>@Co-Vice President</strong> role on{" "}
+                • Pinging our exec roles on{" "}
                 <TextLink
                     text="Discord"
                     href={DISCORD_LINK}

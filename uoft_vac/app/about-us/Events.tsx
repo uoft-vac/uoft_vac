@@ -63,7 +63,7 @@ export default function Events() {
                 <br />
                 All members can come at any point to relax and hang out.
                 <br />
-                Any <strong>UofT student</strong> may sign up to become a member for <strong>free!</strong>
+                Any <strong>UofT student/alumni</strong> may sign up to become a member for <strong>free!</strong>
                 <br />
                 Look out for <strong>Instagram posts</strong> and <strong>Discord announcements</strong> to see what events are coming up!
             </p>
