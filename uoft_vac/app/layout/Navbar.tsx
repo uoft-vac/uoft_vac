@@ -2,12 +2,12 @@
 
 // Pages
 const PAGES = [
-    { title: "Home", href: "/", img: "/navbar-home.png" },
-    { title: "About Us", href: "/about-us", img: "/navbar-about-us.png" },
-    { title: "Our Team", href: "/our-team", img: "/navbar-our-team.png" },
-    { title: "Join Us", href: "/join-us", img: "/navbar-join-us.png" },
-    { title: "Contact Us", href: "/contact-us", img: "/navbar-contact-us.png" },
-    { title: "FAQ", href: "/faq", img: "/navbar-faq.png" },
+    { title: "Home", href: "/", img: "/navbar-home.webp" },
+    { title: "About Us", href: "/about-us", img: "/navbar-about-us.webp" },
+    { title: "Our Team", href: "/our-team", img: "/navbar-our-team.webp" },
+    { title: "Join Us", href: "/join-us", img: "/navbar-join-us.webp" },
+    { title: "Contact Us", href: "/contact-us", img: "/navbar-contact-us.webp" },
+    { title: "FAQ", href: "/faq", img: "/navbar-faq.webp" },
 ];
 
 

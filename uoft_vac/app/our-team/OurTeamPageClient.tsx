@@ -14,10 +14,11 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
 
     "Admin": {
         members: ["Allison", "Sy", "Sunny", "Max", "Osose"],
-        members_mobile: ["Allison", "Sy", "Sunny", "Max", "Osose"],
+        members_mobile: ["Sy", "Allison", "Sunny", "Max", "Osose"],
         titleSrc: "admin",
         containerClassname: "mt-5",
         titleHeight: `min(6rem,15cqw)`,
+        is_first_right: false,
     },
 
     "Events": {
@@ -29,14 +30,17 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
     },
 
     "Graphics": {
-        members: ["Christina", "Lauren", "Ruby", "Arianne", "Sophie"],
+        members: ["Lauren", "Christina", "Ruby", "Arianne", "Sophie"],
+        members_mobile: ["Christina", "Lauren", "Ruby", "Arianne", "Sophie"],
         titleSrc: "graphics",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,17cqw)`,
+        is_first_right: false,
     },
 
     "Marketing": {
-        members: ["Alisha", "Nabneel", "Emilio", "Emily", "Keziah"],
+        members: ["Nabneel", "Alisha", "Emilio", "Emily", "Keziah"],
+        members_mobile: ["Alisha", "Nabneel", "Emilio", "Emily", "Keziah"],
         titleSrc: "marketing",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,15cqw)`,
@@ -48,7 +52,7 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
         titleSrc: "webmaster",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(6rem,12.5cqw)`,
-        is_first_right: true,
+        is_first_right: false,
     },
 
     "Office Manager": {
@@ -56,7 +60,7 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
         titleSrc: "office-manager",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,11cqw)`,
-        is_first_right: true,
+        is_first_right: false,
     },
 };
 
@@ -88,16 +92,13 @@ export default function OurTeamPageClient() {
                     containerClassname,
                     titleHeight,
                 }, ]) => {
-
-                    const cols = Math.min(members.length, 4);
-                    const mobileMembers = members_mobile ?? members;
-
                     return (
+
                         <section className={containerClassname}>
                         
                             {/* Category title */}
                             <SectionTitle
-                                src={titleSrc ? `/title-execs-${titleSrc}.png` : undefined}
+                                src={titleSrc ? `/title-execs-${titleSrc}.webp` : undefined}
                                 height={titleHeight}
                             >
                                 {category}
@@ -112,19 +113,43 @@ export default function OurTeamPageClient() {
                                     2: "grid-cols-2",
                                     3: "grid-cols-3",
                                     4: "grid-cols-4 max-[1600px]:grid-cols-2",
-                                }[cols]}`}>
-                                    {members.map((name) => (
-                                        <ExecEntryGrid
-                                            key={name}
-                                            entryKey={name}
-                                        />
-                                    ))}
+                                    5: "grid-cols-3",
+                                }[members.length]}`}>
+                                    
+                                    {members.length === 5 ? (
+                                        <>
+                                            {/* First row */}
+                                            {members.slice(0, 3).map((name) => (
+                                                <ExecEntryGrid
+                                                    key={name}
+                                                    entryKey={name}
+                                                />
+                                            ))}
+
+                                            {/* Second row */}
+                                            <div className="grid grid-cols-2 col-span-3">
+                                                {members.slice(3).map((name) => (
+                                                    <ExecEntryGrid
+                                                        key={name}
+                                                        entryKey={name}
+                                                    />
+                                                ))}
+                                            </div>
+                                        </>
+                                    
+                                    ) : (
+                                        members.map((name) => (
+                                            <ExecEntryGrid
+                                                key={name}
+                                                entryKey={name}
+                                            />
+                                        ))
+                                    )}
+
                                 </div>
-                            
-                            // MOBILE VIEW
                             ) : (
                                 <ol className="mt-10 gap-10 grid">
-                                    {mobileMembers.map((name, index) => (
+                                    {(members_mobile ?? members).map((name, index) => (
 
                                         // Use list format normally.
                                         !isSmaller ? (

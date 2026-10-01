@@ -17,7 +17,7 @@ export default function Footer() {
 
             {/* Frodo */}
             <Image
-                src="/frodo-footer.png"
+                src="/frodo-footer.webp"
                 alt="Frodo"
                 width={50} height={0}
             />

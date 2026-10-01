@@ -40,7 +40,7 @@ export default function LinksCollection({
                 onMouseLeave={() => setEmailHovered(false)}
             >
                 <Image
-                    src={emailHovered ? "/email-hovered.png" : "/email.png"}
+                    src={emailHovered ? "/email-hovered.webp" : "/email.webp"}
                     alt="utvisualartclub@gmail.com"
                     width={size * 7.5} height={0}
                     onError={() => setEmailImgError(true)}
@@ -93,7 +93,7 @@ export default function LinksCollection({
                 >
                     <DynamicButton>
                         <Image
-                            src="/instagram-logo.png"
+                            src="/instagram-logo.webp"
                             alt="Instagram"
                             className="object-contain"
                             width={size} height={0}

@@ -11,7 +11,7 @@ export default function Banner() {
     return (
         <section className="z-10 w-screen flex justify-center relative">
             <Image
-                src="/banner-final-resized.png"
+                src="/banner.webp"
                 alt="Banner"
                 className="w-full object-contain shadow-lg"
                 style={{ transform: `translateX(-${SIDE_DECOR_WIDTH * (1 - offset)}px)` }}

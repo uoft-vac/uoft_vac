@@ -97,7 +97,7 @@ export default function FeaturedPost() {
 
             {/* Section title */}
             <SectionTitle
-                src="/title-featured-post.png"
+                src="/title-featured-post.webp"
                 height="min(10rem,20cqw)"
             >
                 Featured Post!
