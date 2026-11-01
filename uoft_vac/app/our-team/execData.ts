@@ -163,7 +163,7 @@ export const execData: Record<string, ExecDataTypes> = {
     Nabneel: {
         position: "Marketing Assistant",
         colour: "#2B752B",
-        study: "3nd year, Neuroscience, Psychology & Creativity and Society",
+        study: "3rd year, Neuroscience, Psychology & Creativity and Society",
         medium: "traditional sketching, inking, and painting",
         fact: "I am a little bit addicted to iced tea.",
         artwork: "Nabneel.webp",
