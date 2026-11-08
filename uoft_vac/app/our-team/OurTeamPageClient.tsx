@@ -30,8 +30,7 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
     },
 
     "Graphics": {
-        members: ["Lauren", "Christina", "Ruby", "Arianne", "Sophie"],
-        members_mobile: ["Christina", "Lauren", "Ruby", "Arianne", "Sophie"],
+        members: ["Christina", "Ruby", "Arianne", "Sophie"],
         titleSrc: "graphics",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,17cqw)`,
@@ -56,7 +55,7 @@ const EXEC_CATEGORIES_SPECS: Record<string, {
     },
 
     "Office Manager": {
-        members: ["Lydia", "Alex"],
+        members: ["Alex"],
         titleSrc: "office-manager",
         containerClassname: CATEGORY_CONTAINER_CLASSNAME_COMMON,
         titleHeight: `min(7rem,11cqw)`,

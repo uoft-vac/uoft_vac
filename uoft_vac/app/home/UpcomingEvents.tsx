@@ -1,6 +1,6 @@
 "use client";
 
-const LAST_UPDATED = "November 1, 2026";
+const LAST_UPDATED = "November 7, 2026";
 
 
 import Image from "next/image";
